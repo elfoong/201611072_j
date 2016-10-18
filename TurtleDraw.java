@@ -26,7 +26,7 @@ class TurtleDraw{
 	    t1.down();
 	    for(int i=0; i<5; i++){
 	        t1.fd(size);
-	        t1.right(72);
+	        t1.right(144);
 	    }
 	}
 }

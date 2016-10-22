@@ -12,8 +12,8 @@ class Dice {
 class Player {
     private String name;
     int num=0;
-	int firstnum=0;
-	int secondnum=0;
+    int firstnum=0;
+    int secondnum=0;
     public Player(String name) {
         This.name=name;
     }

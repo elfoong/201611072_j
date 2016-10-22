@@ -1,4 +1,3 @@
-import 
 class Dice {
     private int num = 0;
     public void roll() {

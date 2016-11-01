@@ -3,8 +3,6 @@ Turtle t1 = new Turtle();
 class DrawTriangleOrSquare{
     enum Shape{TRIANGLE, RECTANGLE}
     public void drawTriangleOrSquare(int size, int sides, double angle){
-        t1.home();
-        t1.clean();
         for(int i=0; i<sides; i++){
             t1.fd(size);
             t1.right(angle);
@@ -25,10 +23,8 @@ class DrawTriangleOrSquare{
                 angle = 90;
                 break;
         }
-        DrawTriangleOrSquare{ t = new DrawTriangleOrSquare{();
-        t.drawTriangleOrSquare(size, sides, angle);
-        System.out.println("Size is : "+size);
-        System.out.println("Sides is : "+sides);
-        System.out.println("Angle is : "+angle);
+    System.out.println("Size:%d Side:%d Angle:%.1f",size,sides,angle);    
     }
 }
+DrawTriangleOrSquare{ t = new DrawTriangleOrSquare{();
+t.drawTriangleOrSquare(size, sides, angle);

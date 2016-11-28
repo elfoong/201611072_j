@@ -1,32 +1,23 @@
+package com.sd.ch8;
+
 public class Rectangle {
-    private int width;
-    private int height;
-    public Rectangle(int w, int h) {
+    protected double length;
+    protected double width;
+    protected boolean isSelected;
+    public Rectangle(double l, double w) {
+        this.length=l;
         this.width=w;
-        this.height=h;
     }
-    public int getWidth() {
+    public double getLength() {
+        return length;
+    }
+    public double getWidth() {
         return width;
     }
-    public int getHeight() {
-        return height;
+    public void setSelected(boolean b) {
+        isSelected=b;
     }
-    public void setHeight(int h) {
-        height=h;
-    }
-    public void setWidth(int newWidth){
-        width = newWidth;
-    }
-    public void setSize(int w, int h){
-        setWidth(w);
-        setHeight(h);
-    }
-    public int calcArea() {
-        return width*height;
+    public boolean getSelected() {
+        return isSelected;
     }
 }
-
-Rectangle r=new Rectangle(4,5);
-System.out.println("면적: "+r.calcArea());
-r.setSize(5,6);
-System.out.println("면적: "+r.calcArea());

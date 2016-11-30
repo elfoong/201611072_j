@@ -21,8 +21,9 @@ class BMI{
         return res;
     }
     public static void main(String[] args){
-		float result;
-		BMI b = new BMI();
-		result = b.calc(70f, 180f);
-		b.printResult(result);
+        float result;
+        BMI b = new BMI();
+        result = b.calc(70f, 180f);
+        b.printResult(result);
+    }
 }
